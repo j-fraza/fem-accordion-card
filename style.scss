@@ -32,12 +32,22 @@ body {
     border-radius: 2rem;
     max-width: 56rem;
     margin: 3rem;
+    background-image: url('./images/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center 0%;
     
     .card-image {
+        position: relative;
+        
         img {
+            position: absolute;
+            top: -7rem;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
             width: 100%;
+            max-width: 15rem;
             height: auto;
-            max-width: 25rem;
         }
 
         .card-box {
@@ -46,7 +56,19 @@ body {
     }
     
     .card-text {
-    
+        padding-top: 13rem;
+
+        .accordion-item {
+            border-bottom: 2px solid $divider;
+
+            a {
+
+            }
+            
+            .answer {
+                font-weight: 400;
+            }
+        }
     }
 }
 
@@ -57,7 +79,7 @@ body {
         display: flex;
         margin: 6rem auto;
         padding-right: 2rem;
-        background-image: url('../images/bg-pattern-desktop.svg');
+        background-image: url('./images/bg-pattern-desktop.svg');
         background-size: 45%;
         background-repeat: no-repeat;
         background-position: -13% center;
@@ -65,9 +87,11 @@ body {
         .card-image, .card-text {
             flex: 1;
         }
+
         .card-image {
             img {
                 transform: translateX(-4rem);
+                max-width: 25rem;
             }
 
             display: flex;
@@ -84,6 +108,10 @@ body {
                 height: auto;
                 width: 200px;
             }
+        }
+
+        .card-text {
+            padding-top: 0;
         }
     }
 }
