@@ -42,7 +42,7 @@ h1 {
     margin: 0.4rem;
     padding: 1.5rem;
     padding-bottom: 3rem;
-    background-image: url('./images/bg-pattern-mobile.svg');
+    background-image: url('../images/bg-pattern-mobile.svg');
     background-repeat: no-repeat;
     background-position: center 0%;
 
@@ -96,7 +96,7 @@ h1 {
                 display: block;
                 width: 0.625rem;
                 height: 0.625rem;
-                background-image: url('./images/icon-arrow-down.svg');
+                background-image: url('../images/icon-arrow-down.svg');
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center center;
@@ -165,7 +165,7 @@ h1 {
         display: flex;
         margin: 6rem auto;
         padding: 4rem 3rem 4rem 0;
-        background-image: url('./images/bg-pattern-desktop.svg');
+        background-image: url('../images/bg-pattern-desktop.svg');
         background-size: 80%;
         background-repeat: no-repeat;
         background-position: -205% center;
