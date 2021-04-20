@@ -1,6 +1,6 @@
-# Frontend Mentor - 3-column preview card component solution
+# Frontend Mentor - FAQ accordion card solution
 
-This is my solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](blob:moz-extension://8888b86b-5399-480b-b5e6-af1d4c8758f1/2a48d312-9462-4397-acc8-0dd51ae79d34)
+![image](./Screenshot_2021-04-20 Frontend Mentor FAQ Accordion Card.png)
 
 ### Links
 
