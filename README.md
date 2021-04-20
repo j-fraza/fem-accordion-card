@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](./Screenshot_2021-04-20 Frontend Mentor FAQ Accordion Card.png)
+![image](https://user-images.githubusercontent.com/25836398/115338787-8afaca00-a171-11eb-992e-d18a954ef6e0.png)
 
 ### Links
 
