@@ -28,7 +28,8 @@ body {
 }
 
 h1 {
-    font-size: 2.8rem;
+    color: $desat-blue;
+    font-size: 2.3rem;
     text-align: center;
     margin: 1.8rem;
 }
@@ -154,8 +155,9 @@ h1 {
     }
     
     h1 {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
         text-align: left;
+        margin-left: 0;
     }
 
     .card {
@@ -199,6 +201,17 @@ h1 {
 
         .card-text {
             padding-top: 0;
+
+            .accordion-item {
+                a {
+                    font-size: 1rem;
+                }
+
+                .answer {
+                    font-size: 0.79rem;
+                    margin-right: 1rem;
+                }
+            }
         }
     }
 }
